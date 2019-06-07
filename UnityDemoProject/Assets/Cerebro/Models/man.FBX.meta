@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 2677ed0e575050a409fcaa4e2e87fa2a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: "apoyo al p\xE1rp der"
+    100002: "apoyo al p\xE1rp izq"
+    100004: CUERPO
+    100006: "c\xF3rnea der"
+    100008: "c\xF3rnea izq"
+    100010: globo der
+    100012: globo izq
+    100014: iris der
+    100016: iris izq
+    100018: lagrimal der
+    100020: lagrimal izq
+    100022: //RootNode
+    100024: OJOS
+    100026: "pesta\xF1a inf der"
+    100028: "pesta\xF1a inf izq"
+    100030: "pesta\xF1a sup der"
+    100032: "pesta\xF1a sup izq"
+    100034: pupila der
+    100036: pupila izq
+    100038: "p\xE1rp sup der"
+    100040: "p\xE1rp sup izq"
+    400000: "apoyo al p\xE1rp der"
+    400002: "apoyo al p\xE1rp izq"
+    400004: CUERPO
+    400006: "c\xF3rnea der"
+    400008: "c\xF3rnea izq"
+    400010: globo der
+    400012: globo izq
+    400014: iris der
+    400016: iris izq
+    400018: lagrimal der
+    400020: lagrimal izq
+    400022: //RootNode
+    400024: OJOS
+    400026: "pesta\xF1a inf der"
+    400028: "pesta\xF1a inf izq"
+    400030: "pesta\xF1a sup der"
+    400032: "pesta\xF1a sup izq"
+    400034: pupila der
+    400036: pupila izq
+    400038: "p\xE1rp sup der"
+    400040: "p\xE1rp sup izq"
+    2100000: CORNADAS
+    2100002: OKULAR
+    2100004: IBIS
+    2100006: PUPILA
+    2100008: PIEL
+    2100010: 'Material #63'
+    2300000: "apoyo al p\xE1rp der"
+    2300002: "apoyo al p\xE1rp izq"
+    2300004: CUERPO
+    2300006: "c\xF3rnea der"
+    2300008: "c\xF3rnea izq"
+    2300010: globo der
+    2300012: globo izq
+    2300014: iris der
+    2300016: iris izq
+    2300018: lagrimal der
+    2300020: lagrimal izq
+    2300022: "pesta\xF1a inf der"
+    2300024: "pesta\xF1a inf izq"
+    2300026: "pesta\xF1a sup der"
+    2300028: "pesta\xF1a sup izq"
+    2300030: pupila der
+    2300032: pupila izq
+    2300034: "p\xE1rp sup der"
+    2300036: "p\xE1rp sup izq"
+    3300000: "apoyo al p\xE1rp der"
+    3300002: "apoyo al p\xE1rp izq"
+    3300004: CUERPO
+    3300006: "c\xF3rnea der"
+    3300008: "c\xF3rnea izq"
+    3300010: globo der
+    3300012: globo izq
+    3300014: iris der
+    3300016: iris izq
+    3300018: lagrimal der
+    3300020: lagrimal izq
+    3300022: "pesta\xF1a inf der"
+    3300024: "pesta\xF1a inf izq"
+    3300026: "pesta\xF1a sup der"
+    3300028: "pesta\xF1a sup izq"
+    3300030: pupila der
+    3300032: pupila izq
+    3300034: "p\xE1rp sup der"
+    3300036: "p\xE1rp sup izq"
+    4300000: "c\xF3rnea der"
+    4300002: "c\xF3rnea izq"
+    4300004: globo der
+    4300006: globo izq
+    4300008: iris der
+    4300010: iris izq
+    4300012: pupila der
+    4300014: pupila izq
+    4300016: lagrimal izq
+    4300018: "pesta\xF1a inf izq"
+    4300020: "apoyo al p\xE1rp izq"
+    4300022: lagrimal der
+    4300024: "pesta\xF1a inf der"
+    4300026: "apoyo al p\xE1rp der"
+    4300028: "p\xE1rp sup izq"
+    4300030: "pesta\xF1a sup izq"
+    4300032: "p\xE1rp sup der"
+    4300034: "pesta\xF1a sup der"
+    4300036: CUERPO
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

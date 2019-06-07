@@ -23,6 +23,8 @@ public class SphereManipulator : MonoBehaviour {
 	private bool haveReceivedTipPosition = false;
 	private int receivedCount = 0;
 	
+	public Transform instrument;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -63,8 +65,10 @@ public class SphereManipulator : MonoBehaviour {
 			FalconUnity.setSphereGodObject(falcon_num,godObject.localScale.x * godObject.GetComponent<SphereCollider>().radius, godObjectMass,godObject.position, minDistToMaxForce * hapticTipToWorldScale, maxDistToMaxForce * hapticTipToWorldScale);
 			
 			haveReceivedTipPosition = true;
+
 		}
 		
+
 		Vector3 tipPositionScale = new Vector3(1,1,-1);
 		tipPositionScale *= hapticTipToWorldScale;
 		
@@ -123,10 +127,15 @@ public class SphereManipulator : MonoBehaviour {
 	void buttonPressed(int i){
 		
 		switch(i){
-		case 0:			
+		case 0:		
+			Debug.Log("Boato 0 Pressionado");
+			instrument.SendMessage("rodar()");
 			break;
 		case 1: 
+			Debug.Log("Boato 1 Pressionado");
+
 			break;
+
 		case 2:
 			
 			break;
