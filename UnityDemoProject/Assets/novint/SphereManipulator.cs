@@ -25,6 +25,29 @@ public class SphereManipulator : MonoBehaviour {
 	
 	public Transform instrument;
 
+	#region Delegate
+	//delegatepresskey
+	public delegate void FalconButtonPressed(int button);
+	public static event FalconButtonPressed onFalconButtonPressed;
+
+	// create singleton
+	private static SphereManipulator _instance;
+	public static SphereManipulator Instance {
+		get{
+			if (_instance == null)
+			{
+				_instance = new SphereManipulator();
+			}
+				
+			return _instance;
+		}
+	}
+
+	void Awake() {
+		_instance = this;	
+	}
+	#endregion
+
 	// Use this for initialization
 	void Start () {
 		
@@ -37,6 +60,8 @@ public class SphereManipulator : MonoBehaviour {
 		tipPositionScale *= hapticTipToWorldScale;
 		
 		FalconUnity.updateHapticTransform(falcon_num, transform.position, transform.rotation, tipPositionScale, useMotionCompensator, 1/60.0f);
+
+		
 			
 	}
 	
@@ -52,7 +77,7 @@ public class SphereManipulator : MonoBehaviour {
 			}
 			receivedCount ++;
 			
-			if (receivedCount < 25 && (posTip2.x == 0 && posTip2.y == 0 &&posTip2.z == 0)) {
+			if (receivedCount < 25 && (posTip2.x == 0 && posTip2.y == 0 && posTip2.z == 0)) {
 				return;
 			}
 			
@@ -97,7 +122,9 @@ public class SphereManipulator : MonoBehaviour {
 		godObject.position = posGod;
 		godObject.rotation = new Quaternion(0,0,0,1);
 
-	//	FalconUnity.setForceField(falcon_num,force);
+		//teste
+		//Vector3 lforce = new Vector3(1,0,0);
+		//FalconUnity.setForceField(falcon_num,lforce);
 				 
 	}
 	
@@ -125,14 +152,13 @@ public class SphereManipulator : MonoBehaviour {
 	
 	
 	void buttonPressed(int i){
-		
 		switch(i){
 		case 0:		
-			Debug.Log("Boato 0 Pressionado");
-			instrument.SendMessage("rodar()");
+			Debug.Log("Botao 0 Pressionado");
+			
 			break;
 		case 1: 
-			Debug.Log("Boato 1 Pressionado");
+			Debug.Log("Botao 1 Pressionado");
 
 			break;
 
@@ -143,6 +169,19 @@ public class SphereManipulator : MonoBehaviour {
 			break;
 			
 		}
+		if (onFalconButtonPressed != null)
+		{
+			onFalconButtonPressed(i);
+			Debug.Log("Valor de falconnum =" + falcon_num);
+			/* 
+			if(i==1)
+				{
+					Debug.Log("Valor de i =" + i);
+					FalconUnity.setForceField(falcon_num,new Vector3(0,-5,0));
+				}
+		*/
+		}
+		
 	}
 	void buttonReleased(int i){
 		

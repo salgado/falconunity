@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: f899aa5e797d3b7469d0a7652e6aac0c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: blanket
+    100002: body_4_Sphere_001
+    100004: body_4_Sphere_001_2
+    100006: body_4_Sphere_001_3
+    100008: Clamp_braced_foot_001
+    100010: Clamp_braced_hull_001
+    100012: Clamp_braced_screw_001
+    100014: Clamp_paral_Screw_fixed_001
+    100016: Clamp_paral_Screw_fixed_001_2
+    100018: Clamp_paral_Screw_regul_001
+    100020: Clamp_paral_Screw_regul_001_2
+    100022: Clamp_paral_Sponge_fixed_001
+    100024: Clamp_paral_Sponge_fixed_001_2
+    100026: Clamp_paral_Sponge_movable_001
+    100028: Clamp_paral_Sponge_movable_001_2
+    100030: //RootNode
+    100032: Null
+    100034: Null_1
+    100036: Null_2
+    400000: blanket
+    400002: body_4_Sphere_001
+    400004: body_4_Sphere_001_2
+    400006: body_4_Sphere_001_3
+    400008: Clamp_braced_foot_001
+    400010: Clamp_braced_hull_001
+    400012: Clamp_braced_screw_001
+    400014: Clamp_paral_Screw_fixed_001
+    400016: Clamp_paral_Screw_fixed_001_2
+    400018: Clamp_paral_Screw_regul_001
+    400020: Clamp_paral_Screw_regul_001_2
+    400022: Clamp_paral_Sponge_fixed_001
+    400024: Clamp_paral_Sponge_fixed_001_2
+    400026: Clamp_paral_Sponge_movable_001
+    400028: Clamp_paral_Sponge_movable_001_2
+    400030: //RootNode
+    400032: Null
+    400034: Null_1
+    400036: Null_2
+    2100000: No Name
+    2100002: Mat
+    2300000: blanket
+    2300002: body_4_Sphere_001
+    2300004: body_4_Sphere_001_2
+    2300006: body_4_Sphere_001_3
+    2300008: Clamp_braced_foot_001
+    2300010: Clamp_braced_hull_001
+    2300012: Clamp_braced_screw_001
+    2300014: Clamp_paral_Screw_fixed_001
+    2300016: Clamp_paral_Screw_fixed_001_2
+    2300018: Clamp_paral_Screw_regul_001
+    2300020: Clamp_paral_Screw_regul_001_2
+    2300022: Clamp_paral_Sponge_fixed_001
+    2300024: Clamp_paral_Sponge_fixed_001_2
+    2300026: Clamp_paral_Sponge_movable_001
+    2300028: Clamp_paral_Sponge_movable_001_2
+    3300000: blanket
+    3300002: body_4_Sphere_001
+    3300004: body_4_Sphere_001_2
+    3300006: body_4_Sphere_001_3
+    3300008: Clamp_braced_foot_001
+    3300010: Clamp_braced_hull_001
+    3300012: Clamp_braced_screw_001
+    3300014: Clamp_paral_Screw_fixed_001
+    3300016: Clamp_paral_Screw_fixed_001_2
+    3300018: Clamp_paral_Screw_regul_001
+    3300020: Clamp_paral_Screw_regul_001_2
+    3300022: Clamp_paral_Sponge_fixed_001
+    3300024: Clamp_paral_Sponge_fixed_001_2
+    3300026: Clamp_paral_Sponge_movable_001
+    3300028: Clamp_paral_Sponge_movable_001_2
+    4300000: blanket
+    4300002: Clamp_paral_Sponge_movable_001
+    4300004: Clamp_paral_Screw_fixed_001
+    4300006: Clamp_paral_Screw_regul_001
+    4300008: Clamp_paral_Sponge_fixed_001
+    4300010: body_4_Sphere_001
+    4300012: body_4_Sphere_001_2
+    4300014: body_4_Sphere_001_3
+    4300016: Clamp_braced_foot_001
+    4300018: Clamp_braced_screw_001
+    4300020: Clamp_braced_hull_001
+    4300022: Clamp_paral_Sponge_movable_001_2
+    4300024: Clamp_paral_Screw_fixed_001_2
+    4300026: Clamp_paral_Screw_regul_001_2
+    4300028: Clamp_paral_Sponge_fixed_001_2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
