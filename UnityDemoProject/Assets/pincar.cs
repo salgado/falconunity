@@ -80,7 +80,7 @@ public class pincar : MonoBehaviour {
 		if ( (other.gameObject.tag == "celulas-teste") && 
 			(estado_celula == "solto"))
 		{
-			FalconUnity.setForceField(0,new Vector3(0,2,0)); //força par baixo
+			FalconUnity.setForceField(0,new Vector3(0,2,0)); //força para baixo
 
 			other.gameObject.GetComponent<Rigidbody>().isKinematic = true;
 			other.gameObject.GetComponent<SphereCollider>().enabled = false;
@@ -93,6 +93,12 @@ public class pincar : MonoBehaviour {
 
 			celula = other;
 			estado_celula = "preso";
+		}
+		else if ((other.gameObject.tag == "celula-corte"))
+		{
+			Destroy(other.gameObject);
+			Debug.Log("cortou!!!!!");
+
 		}
 
 		Debug.Log("colidiu");

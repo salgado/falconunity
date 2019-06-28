@@ -6,6 +6,10 @@ TagManager:
   tags:
   - celulas-vermelhas
   - celulas-teste
+  - celula-corte
+  - pinca
+  - blood-brain
+  - sugador
   layers:
   - Default
   - TransparentFX
