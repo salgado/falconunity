@@ -11,6 +11,7 @@ TagManager:
   - blood-brain
   - sugador
   - bisturi
+  - popup
   layers:
   - Default
   - TransparentFX
