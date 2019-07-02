@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\ChangeTools.cs" />
+     <Compile Include="Assets\CortaVeia.cs" />
      <Compile Include="Assets\Corte.cs" />
      <Compile Include="Assets\DlgSugador.cs" />
      <Compile Include="Assets\novint\FalconMain.cs" />
@@ -99,6 +100,7 @@
      <Compile Include="Assets\OR_Room\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
      <Compile Include="Assets\OR_Room\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
      <Compile Include="Assets\OR_Room\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\Pincado.cs" />
      <Compile Include="Assets\pincar.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />

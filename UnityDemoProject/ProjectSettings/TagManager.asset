@@ -10,6 +10,7 @@ TagManager:
   - pinca
   - blood-brain
   - sugador
+  - bisturi
   layers:
   - Default
   - TransparentFX
