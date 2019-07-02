@@ -58,19 +58,5 @@ public class SugaSangue : MonoBehaviour {
 		}
 	}
 
-	private void OnCollisionEnter(Collider other) {
-
-		Debug.Log("C1 Enter");
-		
-	}
-
-	private void OnCollisionStay(Collider other) {
-		Debug.Log("C2 Stay");
-		
-	}
-
-	private void OnCollisionExit(Collider other) {
-		Debug.Log("C3 Exit");
-		
-	}
+	
 }
