@@ -44,6 +44,7 @@ public class SugaSangue : MonoBehaviour {
 		{
 			float scaleBlood = 0.001f;
 			transform.localScale -= new Vector3(scaleBlood, scaleBlood, scaleBlood);
+			ScoreSystem.theScore += 10;
 		}
 		
 	}
